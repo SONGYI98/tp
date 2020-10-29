@@ -30,7 +30,7 @@ public class FoodListPanel extends UiPart<Region> {
         super(FXML);
         Label placeHolderText = new Label(NO_FOOD_ITEMS);
         placeHolderText.setWrapText(true);
-        placeHolderText.setStyle("-fx-text-fill: #ffffff");
+        placeHolderText.setStyle("-fx-text-fill: #000000");
         placeHolderText.setTextAlignment(TextAlignment.CENTER);
         foodListView.setPlaceholder(placeHolderText);
         foodListView.setItems(foodList);

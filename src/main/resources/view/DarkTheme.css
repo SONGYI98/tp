@@ -86,25 +86,25 @@
 .list-view {
     -fx-background-insets: 0;
     -fx-padding: 0;
-    -fx-background-color: #4b830d;
+    -fx-background-color: #cfd8dc;
 }
 
 .list-cell {
     -fx-label-padding: 0 0 0 0;
     -fx-graphic-text-gap: 0;
     -fx-padding: 0 0 0 0;
-    -fx-background-color: #4b830d;
+    -fx-background-color: #cfd8dc;
 }
 
 .list-cell:filled:even {
-    -fx-background-color: derive(#7cb342, 1%);
-    -fx-border-color: #7cb342 #7cb342 black #7cb342;
+    -fx-background-color: derive(#4caf50, 1%);
+    -fx-border-color: #4caf50 #4caf50 black #4caf50;
     -fx-border-width: 1;
 }
 
 .list-cell:filled:odd {
-    -fx-background-color: derive(#aee571, 1%);
-    -fx-border-color: #aee571 #aee571 black #aee571;
+    -fx-background-color: derive(#80e27e, 1%);
+    -fx-border-color: #80e27e #80e27e black #80e27e;
     -fx-border-width: 1;
 }
 

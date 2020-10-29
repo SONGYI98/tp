@@ -70,7 +70,7 @@ public class FoodCard extends UiPart<Region> {
         String priorityColor;
         switch(level) {
         case LOW:
-            priorityColor = "#00802b";
+            priorityColor = "#1b5e20";
             break;
         case MEDIUM:
             priorityColor = "#cc7a00";

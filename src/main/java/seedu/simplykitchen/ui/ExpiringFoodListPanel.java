@@ -29,7 +29,7 @@ public class ExpiringFoodListPanel extends UiPart<Region> {
         super(FXML);
         Label placeHolderText = new Label(NO_EXPIRING_ITEMS);
         placeHolderText.setWrapText(true);
-        placeHolderText.setStyle("-fx-text-fill: #FFFFFF");
+        placeHolderText.setStyle("-fx-text-fill: #000000");
         placeHolderText.setTextAlignment(TextAlignment.CENTER);
         expiryListView.setPlaceholder(placeHolderText);
         expiryListView.setItems(foodList);
