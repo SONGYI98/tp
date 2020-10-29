@@ -81,7 +81,8 @@ public class FoodCard extends UiPart<Region> {
         default:
             throw new IllegalArgumentException("Invalid priority level");
         }
-        priority.setStyle("-fx-background-color: " + priorityColor + ";");
+        priority.setStyle("-fx-background-color: " + priorityColor + ";"
+                + "-fx-text-fill: white; -fx-font-weight: bold;");
     }
 
     private void setExpiryDateLabel() {
@@ -91,10 +92,10 @@ public class FoodCard extends UiPart<Region> {
 
         if (dateToday.isAfter(food.getExpiryDate())) {
             expiryLabel.setText("EXPIRED");
-            expiryLabel.setStyle("-fx-background-color: #922B21; -fx-background-radius: 5;");
+            expiryLabel.setStyle("-fx-background-color: #922B21; -fx-background-radius: 5; -fx-text-fill: white;");
         } else if (dateNextWeek.isAfter(food.getExpiryDate())) {
             expiryLabel.setText("EXPIRING SOON");
-            expiryLabel.setStyle("-fx-background-color: #9A7D0A; -fx-background-radius: 5;");
+            expiryLabel.setStyle("-fx-background-color: #9A7D0A; -fx-background-radius: 5; -fx-text-fill: white;");
         } else {
             expiryLabel.setStyle("visibility: false");
         }
