@@ -86,34 +86,25 @@
 .list-view {
     -fx-background-insets: 0;
     -fx-padding: 0;
-    -fx-background-color: white;
+    -fx-background-color: #4b830d;
 }
 
 .list-cell {
     -fx-label-padding: 0 0 0 0;
     -fx-graphic-text-gap: 0;
     -fx-padding: 0 0 0 0;
-    -fx-background-color: white;
+    -fx-background-color: #4b830d;
 }
 
 .list-cell:filled:even {
-    -fx-background-color: derive(palegreen, 1%);
-    -fx-border-color: white white black white;
+    -fx-background-color: derive(#7cb342, 1%);
+    -fx-border-color: #7cb342 #7cb342 black #7cb342;
     -fx-border-width: 1;
 }
 
 .list-cell:filled:odd {
-    -fx-background-color: white;
-    -fx-border-color: white white black white;
-    -fx-border-width: 1;
-}
-
-.list-cell:filled:selected {
-    -fx-background-color: lightblue;
-}
-
-.list-cell:filled:selected #cardPane {
-    -fx-border-color: lightblue;
+    -fx-background-color: derive(#aee571, 1%);
+    -fx-border-color: #aee571 #aee571 black #aee571;
     -fx-border-width: 1;
 }
 
@@ -139,7 +130,7 @@
 
 .pane-with-border {
     -fx-background-color: white;
-    -fx-border-color: darkgreen;
+    -fx-border-color: #616161;
     -fx-border-top-width: 1px;
 }
 
@@ -148,14 +139,14 @@
 }
 
 .result-display {
-    -fx-background-color: white;
+    -fx-background-color: #616161;
     -fx-font-family: "Segoe UI Light";
     -fx-font-size: 13pt;
-    -fx-text-fill: black;
+    -fx-text-fill: white;
 }
 
 .result-display .label {
-    -fx-text-fill: black !important;
+    -fx-text-fill: white !important;
 }
 
 .status-bar .label {
@@ -283,11 +274,11 @@
 }
 
 .scroll-bar {
-    -fx-background-color: derive(green, 20%);
+    -fx-background-color: derive(#1d1d1d, 20%);
 }
 
 .scroll-bar .thumb {
-    -fx-background-color: derive(green, 80%);
+    -fx-background-color: derive(#1d1d1d, 50%);
     -fx-background-insets: 3;
 }
 
@@ -335,9 +326,9 @@
 }
 
 #resultDisplay .content {
-    -fx-background-color: lightgreen;
+    -fx-background-color: #616161;
     -fx-background-radius: 0;
-    -fx-text-fill: darkgreen;
+    -fx-text-fill: white;
 }
 
 #tags {
